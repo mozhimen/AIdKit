@@ -22,10 +22,13 @@ dependencyResolutionManagement {
 rootProject.name = "AIdKit"
 include ':app'
 include ':guid'
+include ':adid'
+include ':adid_service'
 //ALibKit_Google
 include ':ALibKit_Google'
 project(':ALibKit_Google').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Google")
 include ':ALibKit_Google:material'
+include ':ALibKit_Google:android_gms:play_services_ads_identifier'
 //ALibKit_Jetpack
 include ':ALibKit_Jetpack'
 project(':ALibKit_Jetpack').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetpack")
